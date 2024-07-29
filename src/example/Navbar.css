@@ -1,0 +1,12 @@
+@keyframes floatText {
+    0% {
+      transform: translateY(0); /* Start from original position */
+    }
+    50% {
+      transform: translateY(-5px); /* Float up slightly */
+    }
+    100% {
+      transform: translateY(0); /* Return to original position */
+    }
+  }
+  

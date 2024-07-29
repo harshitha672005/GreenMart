@@ -1,0 +1,112 @@
+.dhara {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://static.blog.bolt.eu/LIVE/wp-content/uploads/2022/04/30135418/grocery-list-1024x536.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
+  
+  .wrapper {
+padding: 14px 24px;
+    margin-top: 200px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 30px; /* Increased padding for a more spacious feel */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly increased box shadow */
+    max-height: 3px;
+    height: 6px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px; /* Increased font size for the title */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000; /* Darkened the title color for better contrast */
+  }
+  
+  .section-1,
+  .section-2,
+  .section-3,
+  .cvc 
+  {
+    display: flex;
+    flex-direction: column; /* Change to column layout for vertical alignment */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 20px;
+  }
+  
+  .items {
+    width: 100%; /* Full width for both CARD NUMBER and CARD HOLDER */
+  }
+  
+  .label {
+    font-size: 1 em;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px; /* Increased margin for better separation */
+    color: #555; /* Slightly darker label color */
+  }
+  
+  .input {
+    width: 100%; /* Adjusted width for better visibility */
+    padding: 12px; /* Increased padding for input fields */
+    border: 1px solid #ddd; /* Softer border color */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-sizing: border-box;
+    margin-top: 8px; /* Added margin for better separation */
+  }
+  
+  .cvc {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip:hover .cvc-img {
+    display: block;
+  }
+  
+  .cvc-img {
+    display: none;
+    position: absolute;
+    top: 30px; /* Adjusted the position for better alignment */
+    left: 20px;
+    background-color: #fff;
+    padding: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 24px; /* Increased padding for the button */
+    border: none;
+    border-radius: 8px;
+    font-size: 18px; /* Increased font size for the button text */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added a smooth transition effect */
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }

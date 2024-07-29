@@ -1,0 +1,122 @@
+/* LoginSignup.css */
+
+.log {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://t3.ftcdn.net/jpg/01/22/60/82/360_F_122608269_zzLkaIotH9VCGj3FEvqk1oAwbpuV0Zpq.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#algn {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 320px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
+#container .head {
+  font-weight: 700;
+  font-size: larger;
+  text-align: center; /* Center the text */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+}
+
+.input-container .inpt {
+  padding: 10px;
+  margin: 5px 10px;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+}
+
+::placeholder {
+  font-weight: 600;
+  color: white;
+  opacity: 1;
+}
+
+.rem-forgot {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 10px;
+  font-size: 11px;
+  font-weight: 400;
+  margin: 8px;
+}
+
+.rem {
+  display: flex;
+  align-items: center;
+}
+
+.rem-forgot span a {
+  text-decoration: none;
+  color: white;
+}
+
+.rem-forgot span a:hover {
+  color: #ffc3d2;
+}
+
+.input-container .btn {
+  margin: 0 12px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+.input-container .btn:hover {
+  background-color:#006400 ;
+}
+
+#container .footer {
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center; /* Center the text */
+}
+
+#container .footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+#container .footer a:hover {
+  color: #006400;
+}
+
+@media (max-width: 600px) {
+  /* Responsive styles for smaller screens */
+  #container {
+    width: 80%; /* Adjust the width as needed for responsiveness */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

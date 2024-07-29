@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App header h1 {
+    margin: 0;
+  }
+  
+  .App button {
+    background-color: #61dafb;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .App button:hover {
+    background-color: #4fa3d1;
+  }
+  
+  .Features {
+    padding: 20px;
+  }
+  
+  .Testimonials {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .Testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .Footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+  }
+  

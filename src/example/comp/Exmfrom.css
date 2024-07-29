@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Grey\ cow\ print.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  .App {
+    
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .feature {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #326aa1;
+    border-radius: 5px;
+  }
+  
+  .call-to-action {
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #75acc8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

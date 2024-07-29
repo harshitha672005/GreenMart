@@ -1,0 +1,41 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('grocery-shopping.jpg');
+  background-size: cover;
+  background-position: center;
+  color: hwb(0 0% 100%);
+}
+
+.navbar {
+  background-color: rgb(82, 226, 109);
+  width: 100px; /* Set the width to 100% */
+}
+
+.navbar-title {
+  flex-grow: 1;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  height: 400p;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.explore-button {
+  background-color: #47ca5d;
+  color: #fff;
+}

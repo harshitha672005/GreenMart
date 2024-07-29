@@ -1,0 +1,19 @@
+/* Carousel.css */
+
+.carousel-container {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+}
+
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+}
